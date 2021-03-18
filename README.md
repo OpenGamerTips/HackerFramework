@@ -35,7 +35,7 @@ static bool ShootHook()
 static void Main()
 {
     Interface.Attach("ac_client.exe");
-       int BulletDecrement = Scanner.AOBScan("FF 0E 57 8B 7C 24 14 8D 74 24 28 E8 87")[0];
+    int BulletDecrement = Scanner.AOBScan("FF 0E 57 8B 7C 24 14 8D 74 24 28 E8 87")[0];
     x86.HookIndirect(BulletDecrement, ShootHook);
     Console.ReadLine();
     Interface.Exit();

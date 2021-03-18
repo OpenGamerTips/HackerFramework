@@ -1,6 +1,6 @@
 MIT License
-
-Copyright (c) 2021 OpenGamerTips
+===========
+Copyright (c) 2021 H3x0R (OpenGamerTips)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
